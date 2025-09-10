@@ -12,7 +12,7 @@ function LeftNavbar({children}:children) {
     <div>
     <div className="relative gap-5 hidden  md:block">
 <div className="min-h-screen flex flex-col justify-between shadow-2xl border-r pr-4 pl-2 fixed top-0">
-<div className="px-4 py-2 font-insta text-3xl font-bold ">Instagram</div>
+<div className="px-12 py-2 font-insta text-3xl font-bold ">Instagram</div>
 <div>
       {
         navItems.map((item, index) => (

@@ -18,7 +18,7 @@ function App() {
 },
 {
   path:"/Search",
-  element: <div><LeftNavbar><Search/></LeftNavbar></div>
+  element: <div><LeftNavbar><Search></Search><Home/></LeftNavbar></div>
 },
 
 {
