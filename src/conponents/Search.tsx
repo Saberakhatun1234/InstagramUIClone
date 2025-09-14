@@ -3,13 +3,7 @@ import { XIcon } from "lucide-react";
 import { useState } from "react";
 
 function Search() {
-  const [show, setShow] = useState(false);
-
-  const handleToggle = () => {
-    setShow(!show);
-  };
-
-  return (
+ return (
     <div className="fixed top-0 left-0 shadow min-h-screen bg-white border-l ml-12 border-gray-200 overflow-y-auto w-80 z-50">
       <div className="p-4">
         <div className="mb-4">
@@ -51,6 +45,7 @@ function Search() {
           ))}
         </div>
       </div>
+
     </div>
   );
 }

@@ -1,8 +1,12 @@
-
+import MessageLeftBar from "./MessageLeftBar"
 
 function Messages() {
   return (
-    <div>Messages</div>
+    <div>
+      <MessageLeftBar/>
+
+
+    </div>
   )
 }
 

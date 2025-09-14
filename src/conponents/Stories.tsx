@@ -9,7 +9,7 @@ function Stories() {
         <span className="text-3xl font-insta  ">Instagram</span>
         <div className="relative flex items-center gap-2">
           
-          <label htmlFor=""> <SearchIcon className="absolute inset-y-3 left-4 text-neutral-400 size-5 "/></label>
+          <label > <SearchIcon className="absolute inset-y-3 left-4 text-neutral-400 size-5 "/></label>
           <input type="text" placeholder="Search" className="bg-slate-100 rounded px-8 py-2" />  
         <HeartIcon />
         </div>

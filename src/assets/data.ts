@@ -1,5 +1,5 @@
 
-import { HomeIcon, SearchIcon, UserIcon,VideoIcon,HeartIcon, CompassIcon, PlusCircle, SendIcon,} from "lucide-react"
+import { HomeIcon, SearchIcon, UserIcon,VideoIcon,HeartIcon, CompassIcon, PlusCircle, SendIcon,MessageCircleIcon,BookmarkIcon,Ellipsis,User2Icon} from "lucide-react"
 export const navItems=([
     {
         href:"/",
@@ -378,3 +378,35 @@ export const explorePart =( [
 },
  
 ]);
+
+
+export const videoItems=([
+    {
+        video:"https://www.youtube.com/embed/HaqXis6UFng?si=zRHRvznwqto50ZNw", 
+        likebtn:  HeartIcon,
+       messagebtn:MessageCircleIcon ,
+        sendbtn:SendIcon,
+        bookbtn:BookmarkIcon,
+        ellipsisbtn:Ellipsis,
+        userbtn:User2Icon
+    },
+     {
+        video: "https://www.youtube.com/embed/nHqmJUlWIeA?si=X8CQyjTxB9_fTahO" ,
+        likebtn:  HeartIcon,
+       messagebtn:MessageCircleIcon ,
+        sendbtn:SendIcon,
+        bookbtn:BookmarkIcon,
+        ellipsisbtn:Ellipsis,
+        userbtn:User2Icon
+    },
+     {
+        video: "https://www.youtube.com/embed/BmS_f_8eKtU?si=Z0lEQFd7NdbNwzYq",
+        likebtn:  HeartIcon,
+       messagebtn:MessageCircleIcon ,
+        sendbtn:SendIcon,
+        bookbtn:BookmarkIcon,
+        ellipsisbtn:Ellipsis,
+        userbtn:User2Icon
+    },
+
+])
