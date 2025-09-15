@@ -1,22 +1,37 @@
-import { ChevronDown, SearchIcon, SquarePen } from "lucide-react"
+import { ChevronDown, SearchIcon, SquarePen } from "lucide-react";
+
+import MessageUser from "./MessageUser";
+
 
 function MessageLeftBar() {
   return (
-    <div className="max-w-[350px] mx-auto  min-h-screen ">
-        <hr className="fixed"/>
-        <hr />
-        
-        <div className="">
-            <span className="flex justify-between">
-            <p className="flex gap-2 justify-center items-center"><span className="font-extrabold font-noti">User_Name_1092</span><ChevronDown size={14}/>
-</p> <SquarePen className=""/></span>
-            <div className="relative">
-                <label htmlFor=""><SearchIcon className="absolute inset-y-2 left-4 text-neutral-400 size-4 text-center"/></label>
-            <input type="text" placeholder="Search" className="bg-slate-100 rounded px-10 py-0.5" /> 
-            </div>
+    <div className="relative">
+      <div className=" ">
+      {/* Header: Username + Icon */}
+        <div className="flex justify-between items-center mb-4 ">
+          <p className="flex items-center gap-2 font-extrabold font-noti text-lg">
+            User_Name_1092
+            <ChevronDown size={20} />
+          </p>
+          <SquarePen size={20} />
         </div>
-    </div>
-  )
+
+        {/* Search Input */}
+        <div className="relative mb-4">
+          <SearchIcon className="absolute left-3 top-1/2 -translate-y-1/2 text-neutral-400" size={18} />
+          <input
+            type="text"
+            placeholder="Search"
+            className="w-full bg-slate-100 rounded-full px-10 py-2 focus:outline-none"
+          />
+        </div>
+       <MessageUser/>
+   
+         </div>
+      </div>
+   
+    
+  );
 }
 
-export default MessageLeftBar
+export default MessageLeftBar;
