@@ -32,7 +32,7 @@ function LeftNavbar({children}:children) {
       </div>
     </div>
     <main className="min-h-screen ">
-  <div className="md:w-1/2 w-full px-4 mx-auto  py-3">
+  <div  className="md:w-1/2 w-full px-4 mx-auto  py-3">
     {children}
   </div>
 </main>
